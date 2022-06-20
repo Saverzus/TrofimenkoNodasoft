@@ -83,6 +83,7 @@ header a {
   height: 199px;
   width: 25%;
   margin: 30px;
+  aspect-ratio: 1/1;
 }
 
 
@@ -96,7 +97,7 @@ footer {
 
 
 .content {
-  position: absolute;
+  position: fixed;
   top: 10%;
   transform: translateY(-10%);
   left: 50%;
